@@ -1,0 +1,43 @@
+// grid 8px
+$grid: 8;
+$grid-list: [];
+
+@for $pixels from $grid to $grid*100 {
+    $grid-list: $pixels
+}
+
+@each $pixels in $grid-list {
+    // margin
+    .mar-#{$pixels} {
+        margin: #{$pixels}px
+    }
+    .mart-#{$pixels} {
+        margin-top: #{$pixels}px
+    }
+    .marb-#{$pixels} {
+        margin-bottom: #{$pixels}px
+    }
+    .marr-#{$pixels} {
+        margin-right: #{$pixels}px
+    }
+    .marl-#{$pixels} {
+        margin-left: #{$pixels}px
+    }
+
+    // padding
+    .pad-#{$pixels} {
+        padding: #{$pixels}px
+    }
+    .padt-#{$pixels} {
+        padding-top: #{$pixels}px
+    }
+    .padb-#{$pixels} {
+        padding-bottom: #{$pixels}px
+    }
+    .padr-#{$pixels} {
+        padding-right: #{$pixels}px
+    }
+    .padl-#{$pixels} {
+        padding-left: #{$pixels}px
+    }
+}
