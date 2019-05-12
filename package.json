@@ -1,5 +1,5 @@
 {
-  "name": "js-webpack",
+  "name": "es-webpack",
   "version": "1.0.0",
   "description": "EcmaScript webpack based starter boilerplate",
   "main": "index.js",
@@ -18,6 +18,10 @@
   ],
   "author": "José Diaz",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/xoxefdp/es-webpack.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
